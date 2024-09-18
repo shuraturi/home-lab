@@ -1,7 +1,7 @@
 # Home Lab Setup Documentation
+![alt text](https://i.imgur.com/ZkyZKNz.png)
 
 ## Overview
-
 This documentation provides an overview of my home lab setup designed to enhance security, manage network traffic, and optimize resource utilization through virtualization.
 
 ## Components
@@ -30,10 +30,8 @@ This documentation provides an overview of my home lab setup designed to enhance
 ### 4. **VLAN Configuration**
 - **Purpose**: VLANs are used to segment the network into isolated zones, reducing the attack surface and improving security.
 - **Configuration Details**:
-  - **VLAN 10 (Management)**: Dedicated to management devices such as the Proxmox host.
-  - **VLAN 20 (Home Lab)**: Contains VMs, containers, and other lab-related devices.
-  - **VLAN 30 (User Devices)**: Isolated from critical infrastructure and used for general internet access.
-  - **VLAN 40 (IoT Devices)**: Segregates IoT devices from other networks to minimize security risks.
+  - **VLAN 99 (Virtualization)**: Dedicated to virtualization devices such as the Proxmox host.
+  - **VLAN 50 (User Devices)**: Isolated from critical infrastructure and used for general internet access.
 
 ### 5. **Network Security and Segmentation**
 - **Firewall Rules**: Implemented within pfSense to strictly control traffic flow between VLANs.
