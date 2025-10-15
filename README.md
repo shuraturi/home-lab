@@ -2,7 +2,7 @@
 ![alt text](https://i.imgur.com/ZkyZKNz.png)
 
 ## Overview
-This documentation provides an overview of my home lab setup designed to enhance security, manage network traffic, and optimize resource utilization through virtualization.
+This documentation provides an overview of my home lab setup designed to enhance security, manage network traffic and optimize resource utilization through virtualization.
 
 ## Components
 
